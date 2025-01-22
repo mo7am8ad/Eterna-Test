@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>City Selection</title>
+  <link rel="stylesheet" href="./assets/css/city-selector.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="choose-destrict">
+    <div class="hero-contianer">
+      <div class="logo-container">
+        <img src="./assets/images/app-icon.svg">
+      </div>
+      <div class="header-container">
+        <p>
+          Lütfen hizmet verdiğiniz ilçe veya ilçeleri seçiniz. Şehir merkezinde olmayan ilçelerin fiyatları %90’a kadar daha ucuz.
+        </p>
+      </div>
+    </div>
+
+    <div class="inputs-container">
+      <div class="dropdown">
+        <p>City</p>
+        <img class="arrow" src="./assets/images/expand_more.svg">
+      </div>
+  
+      <div class="city-section">
+        <div class="search-field">
+          <input type="text" placeholder="ARA" id="city-search">
+        </div>
+  
+        <div class="city-list">
+          <label><input type="checkbox" value="New York"> New York</label>
+          <label><input type="checkbox" value="Los Angeles"> Los Angeles</label>
+          <label><input type="checkbox" value="Chicago"> Chicago</label>
+          <label><input type="checkbox" value="Houston"> Houston</label>
+          <label><input type="checkbox" value="Miami"> Miami</label>
+          <label><input type="checkbox" value="San Francisco"> San Francisco</label>
+        </div>
+      </div>
+    </div>
+
+    <button class="ileri-button" onclick="window.location.href='working-hours.html'">
+      İleri 
+      <img src="./assets/images/ileri button icon.svg">
+    </button>
+
+    <script src="./assets/js/script.js"></script>
+  </div>
+  <div class="background-circles first-circle"><img src="./assets/images/background circle 1.svg"></div>
+  <div class="background-circles second-circle"><img src="./assets/images/background circle 2.svg"></div>
+  <div class="background-circles third-circle"><img src="./assets/images/background circle 3.svg"></div>
+</body>
+</html>

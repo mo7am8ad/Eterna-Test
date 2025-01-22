@@ -1,0 +1,77 @@
+*{
+  border: none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: DM Sans;
+  margin: 0;
+  padding: 0;
+  background-color: #0F533280;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+.background-circles{
+  position: absolute;
+  z-index: -5;
+}
+.first-circle{
+  top: 0;
+  left: 0;
+}
+.second-circle{
+  top: 35%;
+  right: 0;
+}
+.third-circle{
+  bottom: 0;
+  left: 0;
+}
+.ileri-button{
+  background-color: #47734DD9;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 31.25px;  
+  gap: 26px;
+  padding: 9px 9px 9px 20px;
+  border-radius: 5px;
+  align-self: center;
+}
+.main-continaer{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 375px;
+  gap: 42px;
+  margin-top: 100px;
+}
+  .hero-contianer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+  }
+    .logo-container{
+      width: 120px;
+      height: 120px;
+    }
+      .logo-container img{
+
+      }
+    .hero-contianer p{
+      width: 356px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20.83px;
+      color: #FFFFFF;
+      text-align: center;
+    }

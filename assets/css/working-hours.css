@@ -1,0 +1,151 @@
+*{
+  border: none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: DM Sans;
+  margin: 0;
+  padding: 0;
+  background-color: #0F533280;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+.background-circles{
+  position: absolute;
+  z-index: -5;
+}
+.first-circle{
+  top: 0;
+  left: 0;
+}
+.second-circle{
+  top: 5%;
+  right: 0;
+}
+.third-circle{
+  bottom: 0;
+  left: 0;
+}
+.ileri-button{
+  background-color: #47734DD9;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 31.25px;  
+  gap: 26px;
+  padding: 9px 9px 9px 20px;
+  border-radius: 5px;
+  align-self: flex-end;
+}
+.geri-button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+  background-color: #00000000;
+  color: white;
+
+}
+.navigation-buttons-contianer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.main-continaer{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 375px;
+  gap: 42px;
+  margin-top: 100px;
+}
+  .hero-contianer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+  }
+    .logo-container{
+      width: 120px;
+      height: 120px;
+    }
+      .logo-container img{
+
+      }
+    .hero-contianer p{
+      width: 356px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20.83px;
+      color: #FFFFFF;
+      text-align: center;
+    }
+
+  .fields-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+  }
+    .header-field{
+      display: flex;
+      gap: 6px;
+    }
+      .header-field>div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #FFFFFF;
+        border: 1px solid #E6E6E6;
+        box-shadow: 4px 4px 20px 0px #00000040;
+        height: 48px;
+        border-radius: 5px;
+        padding: 14px;
+      }
+        .header-field>div>p , .delete-contianer p{
+          color: #737373;
+          font-family: DM Sans;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 20px;
+          letter-spacing: 0.01em;
+          text-align: left;
+          text-underline-position: from-font;
+          text-decoration-skip-ink: none;
+          
+        }
+        .header-field>div>img{
+          
+        }
+      .working-day{
+        width: 40%;
+      }
+      .start-time{
+        width: 30%;
+      }
+      .end-time{
+        width: 30%;
+      }
+      .delete-contianer{
+        display: flex;
+        align-items: center;
+      }
+      .Add-time{
+        align-self: flex-end;
+        width: 87px;
+        height: 33px;
+        background-color: #4CD0801F;
+        color: #4CD080;
+        
+        border-radius: 5px;
+      }
